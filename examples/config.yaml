@@ -1,0 +1,10 @@
+project: "Clinician Dashboard v0.4"
+domains: [healthcare, security]
+checks:
+  wcag:
+    level: "AA"
+    include: ["1.4.3", "2.4.7", "3.3.1"]
+report:
+  formats: ["json","csv","md"]
+privacy:
+  pii_scrub: true
