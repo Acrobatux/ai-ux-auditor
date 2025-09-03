@@ -1,0 +1,5 @@
+{
+  "buttons": [
+    {"id": "b1", "label": "Delete", "selector": "#delete-btn", "confirm": false}
+  ]
+}
